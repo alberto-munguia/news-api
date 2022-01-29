@@ -10,7 +10,7 @@ Custom Nodejs and React script to get the latest UK news
 
 ## Installation
 
-Latest Uk News requires [Node.js](https://nodejs.org/) v8+ and Reactjs v16+ to run.
+Latest Uk News requires [Node.js](https://nodejs.org/) v8+ and [React](https://reactjs.org/) v16+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
