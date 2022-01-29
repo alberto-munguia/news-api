@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Button, Card, Col } from 'react-bootstrap'
+import { Card, Col } from 'react-bootstrap'
 
 const News = ({ item }) => {
     return (
@@ -14,7 +14,13 @@ const News = ({ item }) => {
                     <Card.Title>{ item.title }</Card.Title>
                     <Card.Text>{ item.description }</Card.Text>
                     <div className="d-grid">
-                        <Button variant="outline-primary" size="sm">Read more...</Button>
+                        <a
+                            href={ item.url }
+                            target="_blank"
+                            className="btn-outline-primary btn btn-sm"
+                        >
+                            Read more...
+                        </a>
                     </div>
                 </Card.Body>
                 <Card.Footer className="fst-italic text-end">
